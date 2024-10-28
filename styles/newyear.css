@@ -1,0 +1,27 @@
+/*nav related style*/
+nav{
+color:  #151414;
+text-align: right;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+/*common shared styles*/
+body{
+    font-family: "Open Sans", serif;
+    
+}
+nav li{
+    list-style: none;
+}
+.btn-primary{
+ border-radius: 5px;
+background: #F15B22;
+font-size: 30px;
+color: #FFF;
+font-weight: 600;
+padding: 15px;
+
+}
