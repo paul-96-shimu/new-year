@@ -1,18 +1,5 @@
-/*nav related style*/
-nav{
-color:  #151414;
-text-align: right;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
 
-}
-/*common shared styles*/
-body{
-    font-family: "Open Sans", serif;
-    
-}
+
 nav li{
     list-style: none;
 }
@@ -23,5 +10,25 @@ font-size: 30px;
 color: #FFF;
 font-weight: 600;
 padding: 15px;
-
 }
+
+.header{
+    background-color: lightgray;
+}
+.banner{
+padding: 30px 30px 30px 30px;
+ color:  #151414;
+text-align: right;
+font-size: 65px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 100px 200px;
+font-family: "Work Sans";
+align-items: center;
+}
+.banner.profil-pic{
+width: 451px;
+}
+
+    
