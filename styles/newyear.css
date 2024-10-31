@@ -1,34 +1,98 @@
 
 
-nav li{
-    list-style: none;
-}
-.btn-primary{
- border-radius: 5px;
-background: #F15B22;
-font-size: 30px;
-color: #FFF;
-font-weight: 600;
-padding: 15px;
+/*Header related style*/
+.banner {
+    display: flex;
+    margin-left: 500px;
+    
+
 }
 
 .header{
+
     background-color: lightgray;
-}
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    justify-content: space-between; 
+    align-items: flex-end;  
+
+   }
 .banner{
-padding: 30px 30px 30px 30px;
- color:  #151414;
-text-align: right;
-font-size: 65px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin: 100px 200px;
-font-family: "Work Sans";
-align-items: center;
+    
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        color: #151414;
+        text-align: right;
+        font-size: 65px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 100px 200px;
+        font-family: "Work Sans";
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+.banner-title {
+    display: flex;
+    
+    color:  #151414;
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    }
+    .banner-description {
+    display: flex;
+    color:  #444343;
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+
+    line-height: 26px;
+    padding: 16px 26px; 
+        
+  }
+.banner-content{
+    padding: 120px 110px 100px 300px;
 }
-.banner.profil-pic{
-width: 451px;
+.banner.profile-pic{
+
+background-color: white;
 }
 
+
+/*my-failures css*/
+.my-failures{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 100px;
+}
+.section-title{
+    color:  #151414;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+    width: 400px;
+
+}
+.section-description{
+    color:  #444343;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 400px;
+
+}
     
