@@ -1,98 +1,140 @@
-
-
 /*Header related style*/
+.body {
+  width: 1600px;
+  margin: 0 auto; /* Centers the container */
+}
 .banner {
-    display: flex;
-    margin-left: 500px;
-    
-
+  display: flex;
+  margin-left: 500px;
 }
 
-.header{
-
-    background-color: lightgray;
-    background-image: url('../images/banner/banner2.png');
-    background-repeat: no-repeat;
-    justify-content: space-between; 
-    align-items: flex-end;  
-
-   }
-.banner{
-    
-        display: flex;
-        padding: 20px 20px 20px 20px;
-        color: #151414;
-        text-align: right;
-        font-size: 65px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin: 100px 200px;
-        font-family: "Work Sans";
-        align-items: center;
-        justify-content: space-between;
-    }
-
+.header {
+  background-color: lightgray;
+  background-image: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.banner {
+  display: flex;
+  padding: 20px 20px 20px 20px;
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 100px 200px;
+  font-family: "Work Sans";
+  align-items: center;
+  justify-content: space-between;
+}
 
 .banner-title {
-    display: flex;
-    
-    color:  #151414;
-    text-align: right;
-    font-family: "Work Sans";
-    font-size: 65px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    align-items: center;
-    }
-    .banner-description {
-    display: flex;
-    color:  #444343;
-    text-align: right;
-    font-family: "Work Sans";
-    font-size: 16px;
-    font-style: normal;
+  display: flex;
 
-    line-height: 26px;
-    padding: 16px 26px; 
-        
-  }
-.banner-content{
-    padding: 120px 110px 100px 300px;
+  color: #151414;
+  text-align: right;
+  font-family: "Work Sans";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: center;
 }
-.banner.profile-pic{
-
-background-color: white;
+.banner-description {
+  display: flex;
+  color: #444343;
+  text-align: right;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+  padding: 16px 26px;
+}
+.banner-content {
+  padding: 120px 0px 100px 450px;
+}
+.banner.profile-pic {
+  background-color: white;
 }
 
-
-/*my-failures css*/
-.my-failures{
-    display: flex;
-    gap: 100px;
-    align-items: center;
-    padding: 100px;
+/* my-failures */
+.my-failures {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding: 100px;
+  margin: 100px;
 }
-.section-title{
-    color:  #151414;
-    font-family: "Work Sans";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 10px;
-    width: 400px;
-
+.my-failures .section-title {
+  color: #151414;
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px;
+  width: 400px;
 }
-.section-description{
-    color:  #444343;
-    font-family: "Work Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
-    width: 400px;
-
+.my-failures .section-description {
+  color: #444343;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 400px;
 }
-    
+
+.skills-container {
+  display: flex;
+  padding: 200px;
+}
+.skill {
+  gap: 10px;
+  margin: 40px;
+  padding: 20px;
+}
+
+.background-img {
+  gap: 10px;
+  display: flex;
+  width: 1140px;
+  height: 300px;
+  flex-shrink: 0;
+  margin-top: 100px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+}
+/* footer related styles */
+.section-title {
+  color: #f8f8f8;
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-description {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+footer {
+  display: flex;
+  background: #151414;
+  padding: 130px 230px;
+  margin-top: 100px;
+}
+.info-title {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
