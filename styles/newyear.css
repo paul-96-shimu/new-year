@@ -17,7 +17,9 @@
 }
 .banner {
   display: flex;
-  padding: 20px 20px 20px 20px;
+  /* padding: 20px 20px 20px 20px;
+  
+   */
   color: #151414;
   text-align: right;
   font-size: 65px;
@@ -31,10 +33,9 @@
 }
 
 .banner-title {
-  display: flex;
-
+  text-align: center;
   color: #151414;
-  text-align: right;
+
   font-family: "Work Sans";
   font-size: 65px;
   font-style: normal;
@@ -77,6 +78,7 @@
   padding: 10px;
   width: 400px;
 }
+
 .my-failures .section-description {
   color: #444343;
   font-family: "Work Sans";
@@ -86,27 +88,37 @@
   line-height: 26px; /* 162.5% */
   width: 400px;
 }
-
+/* skill related style */
 .skills-container {
   display: flex;
-  padding: 200px;
+  padding: 70px 200px 200px 200px;
 }
 .skill {
-  gap: 10px;
   margin: 40px;
-  padding: 20px;
+  padding: 55px 50px 50px 55px;
+}
+/* awlays-keep css */
+.awlays-keep {
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.awlays-keep .banner-title {
+  color: hsl(0, 80%, 42%);
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 459px;
+  margin: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.background-img {
-  gap: 10px;
-  display: flex;
-  width: 1140px;
-  height: 300px;
-  flex-shrink: 0;
-  margin-top: 100px;
-  border-radius: 8px;
-  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
-}
 /* footer related styles */
 .section-title {
   color: #f8f8f8;
@@ -123,6 +135,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+  margin-right: 100px;
+  width: 485px;
 }
 footer {
   display: flex;
@@ -130,11 +144,30 @@ footer {
   padding: 130px 230px;
   margin-top: 100px;
 }
-.info-title {
+.future-info {
   color: #fff;
   font-family: "Work Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+}
+/* title style */
+.Subscribe-title {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* style the input field */
+input[type="email"] {
+  width: 325px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: var(--Dark-01, #151414);
+  margin: 10px;
 }
